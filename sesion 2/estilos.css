@@ -2,13 +2,13 @@ body{
     background-image: url(imagenes/5562006.png)
 }
 .container{
-    background-color: ;
     padding: 0px 40px;
     text-align: right;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
+
 .logo img{
     width: 100px;
     height: 100px;
@@ -36,11 +36,20 @@ ul{
     display: flex;
     text-decoration: none;
     list-style-type: none;
+    text-align: center;
+    justify-content: center;
+    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'Lilita One';
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Quicksand', sans-serif;
+    font-family: 'VT323', monospace;
 }
+
 li a{
     text-decoration: none;
     color: black;
 }
+
 nav ul{
     display: flex;
 }
@@ -69,7 +78,15 @@ nav ul{
 }
 .articulo .mueble{
     text-align: center;
+    text-align: center;
+    justify-content: center;
+    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'Lilita One';
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Quicksand', sans-serif;
+    font-family: 'VT323', monospace;
 }
+
 .articulo{
     text-align: center;
 }
@@ -78,6 +95,11 @@ nav ul{
     list-style-type: decimal;
     padding-left: 20px;
     display: inline-grid;
+    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'Lilita One';
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Quicksand', sans-serif;
+    font-family: 'VT323', monospace;
 }
 
 .listas li{
@@ -86,6 +108,7 @@ nav ul{
     justify-content: center;
     border-right: none;
 }
+
 .card-container .productos{
     text-align: center;
     justify-content: center;
@@ -94,7 +117,6 @@ nav ul{
     font-family: 'Oswald', sans-serif;
     font-family: 'Quicksand', sans-serif;
     font-family: 'VT323', monospace;
-
 }
 
 .card{
@@ -128,6 +150,7 @@ nav ul{
     grid-column-end: 7;
     align-items: center;
 }
+
 .producto .productos{
     text-align: center;
     font-family: 'Bebas Neue', sans-serif;
@@ -136,6 +159,7 @@ nav ul{
     font-family: 'Quicksand', sans-serif;
     font-family: 'VT323', monospace;
 }
+
 .row{
     display: flex;
     grid-template-columns: repeat(6, 1fr);
@@ -194,10 +218,20 @@ nav ul{
     color: #fff;
     margin-bottom: 35px;
     font-size: 25px;
+    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'Lilita One';
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Quicksand', sans-serif;
+    font-family: 'VT323', monospace;
 }
 .pie-pagina .grupo-1 .box p{
     color: #efefef;
     margin-bottom: 40px;
+    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'Lilita One';
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Quicksand', sans-serif;
+    font-family: 'VT323', monospace;
 }
 .pie-pagina .grupo-1 .red-social a{
     text-decoration: none;
@@ -218,12 +252,4 @@ nav ul{
     color: #fff;
     background-color: #0a1a2a;
     padding: 16px 10px;
-}
-@keyframes tarjeta {
-    from{
-        transform: rotateY(0deg);
-    }
-    to{
-        transform: rotateY(360deg);
-    }
 }
