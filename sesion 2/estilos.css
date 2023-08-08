@@ -1,5 +1,5 @@
 body{
-    background-image: url(imagenes/5562006.png)
+    background-image: url(imagenes/pexels-fwstudio-129731.jpg)
 }
 .container{
     padding: 0px 40px;
@@ -68,8 +68,14 @@ nav ul:hover{
 
 .img {
     display: block;
-    width: 100%;
+    width: 103%;
+    position: relative;
+    left: -7px;
+    
+
 }
+
+
 
 .boton{
     border: 0;
@@ -77,12 +83,28 @@ nav ul:hover{
     padding: 0px 20px;
     font-size: 1rem;
     text-align: center;
-    background-color: #C8E4B2;
-    text-shadow: 1px 1px 1px #000;
+    background-color: #0d2033;
     border-radius: 30px;
-    background-image: none;
     cursor: pointer;
+    color: white;
 }
+
+.row .boton{
+    color: #fff;
+}
+
+.row img{
+   position: relative;
+   width: 440px;
+   left: -20px;
+   top: -20px
+    
+}
+
+.boton:hover{
+    transform: scale(1.05);
+}
+
 .articulo .mueble{
     text-align: center;
     text-align: center;
@@ -92,6 +114,7 @@ nav ul:hover{
 
 .articulo{
     text-align: center;
+    cursor: pointer;
 }
 
 .listas{
@@ -116,14 +139,14 @@ nav ul:hover{
 
 .card{
     font-family: 'Lilita One', cursive;
-    background: linear-gradient(45deg, #457b9d, #ffffff);
+    background: #fff ;
     display: flex;
     justify-content: center;
     flex-direction: column;
     max-width: 400px;
     padding: 20px;
     text-align: center;
-    box-shadow: 0px 5px 15px #22223b;
+    box-shadow: 0px 5px 15px;
     border-radius: 30px;
     width: 30rem;
 }
@@ -204,13 +227,18 @@ nav ul:hover{
     fill: #000000;
     margin-top: 15px;
     padding: 5px;
-    margin-left: 20px ;
+    margin-left: 77px;
+    position: relative;
+    cursor: pointer;
 }
 
 /*Pie de página*/
 .pie-pagina{
-    width: 100%;
+    width: 104%;
     background-color: #0a141d;
+    position: relative;
+    left: -10px;
+    bottom: -13px;
 }
 
 .box h2:hover{
@@ -252,11 +280,13 @@ nav ul:hover{
     margin-bottom: 35px;
     font-size: 25px;
     font-family: 'Lilita One', cursive;
+    cursor: pointer;
 }
 .pie-pagina .grupo-1 .box p{
     color: #efefef;
     margin-bottom: 40px;
     font-family: 'Lilita One', cursive;
+    cursor: pointer;
 }
 .pie-pagina .grupo-1 .red-social a{
     text-decoration: none;
