@@ -14,6 +14,11 @@ body{
     height: 100px;
     align-items: center;
 }
+
+.logo img:hover{
+    transform: scale(1.05)
+}
+
 #Buscador{
     width: 171px;
     height: 30px;
@@ -21,6 +26,7 @@ body{
     margin-top: 15px;
     margin-left: 20px;
     border-radius: 30px;
+    font-family: 'Lilita One', cursive;
 }
 nav ul li{
     padding: 15px;
@@ -38,11 +44,7 @@ ul{
     list-style-type: none;
     text-align: center;
     justify-content: center;
-    font-family: 'Bebas Neue', sans-serif;
-    font-family: 'Lilita One';
-    font-family: 'Oswald', sans-serif;
-    font-family: 'Quicksand', sans-serif;
-    font-family: 'VT323', monospace;
+    font-family: 'Lilita One', cursive;
 }
 
 li a{
@@ -52,6 +54,11 @@ li a{
 
 nav ul{
     display: flex;
+    
+}
+
+nav ul:hover{
+    transform: scale(1.05);
 }
 
 .hero {
@@ -80,11 +87,7 @@ nav ul{
     text-align: center;
     text-align: center;
     justify-content: center;
-    font-family: 'Bebas Neue', sans-serif;
-    font-family: 'Lilita One';
-    font-family: 'Oswald', sans-serif;
-    font-family: 'Quicksand', sans-serif;
-    font-family: 'VT323', monospace;
+    font-family: 'Lilita One', cursive;
 }
 
 .articulo{
@@ -95,11 +98,7 @@ nav ul{
     list-style-type: decimal;
     padding-left: 20px;
     display: inline-grid;
-    font-family: 'Bebas Neue', sans-serif;
-    font-family: 'Lilita One';
-    font-family: 'Oswald', sans-serif;
-    font-family: 'Quicksand', sans-serif;
-    font-family: 'VT323', monospace;
+    font-family: 'Lilita One', cursive;
 }
 
 .listas li{
@@ -112,19 +111,11 @@ nav ul{
 .card-container .productos{
     text-align: center;
     justify-content: center;
-    font-family: 'Bebas Neue', sans-serif;
-    font-family: 'Lilita One';
-    font-family: 'Oswald', sans-serif;
-    font-family: 'Quicksand', sans-serif;
-    font-family: 'VT323', monospace;
+    font-family: 'Lilita One', cursive;
 }
 
 .card{
-    font-family: 'Bebas Neue', sans-serif;
     font-family: 'Lilita One', cursive;
-    font-family: 'Oswald', sans-serif;
-    font-family: 'Quicksand', sans-serif;
-    font-family: 'VT323', monospace;
     background: linear-gradient(45deg, #457b9d, #ffffff);
     display: flex;
     justify-content: center;
@@ -134,8 +125,14 @@ nav ul{
     text-align: center;
     box-shadow: 0px 5px 15px #22223b;
     border-radius: 30px;
-    overflow: auto;
+    width: 30rem;
 }
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+  }
 
 .card-container{
     display: grid;
@@ -153,11 +150,11 @@ nav ul{
 
 .producto .productos{
     text-align: center;
-    font-family: 'Bebas Neue', sans-serif;
     font-family: 'Lilita One', cursive;
-    font-family: 'Oswald', sans-serif;
-    font-family: 'Quicksand', sans-serif;
-    font-family: 'VT323', monospace;
+}
+
+.producto .productos:hover{
+    transform: scale(1.05)
 }
 
 .row{
@@ -171,14 +168,36 @@ nav ul{
     width: 100%;
 }
 
+.row img{
+    border-radius: 30px;
+    
+}
+
+.row h1{
+    font-family: 'Lilita One', cursive;
+}
+
+.row p{
+    font-family: 'Lilita One', cursive;
+}
+
+.row .boton{
+    font-family: 'Lilita One', cursive;
+}
+
+.row a{
+    text-decoration: none;
+    color: #000;
+}
+
+.row a:active{
+    color: #0a141d;
+}
 
 .letras{
-    font-family: 'Anton', sans-serif;
+    font-family: 'Lilita One', cursive;
 }
-.card:hover{
-    cursor: pointer;
-    /*animation: tarjeta 3s ease-in-out;*/
-}
+
 .carrito{
     width: 24px;
     height: 24px;
@@ -193,6 +212,15 @@ nav ul{
     width: 100%;
     background-color: #0a141d;
 }
+
+.box h2:hover{
+    transform: scale(1.05)
+}
+
+.box p:hover{
+    transform: scale(1.05)
+}
+
 .pie-pagina .grupo-1{
     width: 100%;
     max-width: 1200px;
@@ -214,24 +242,21 @@ nav ul{
     width: 300px;
     height: 300px;
 }
+
+.pie-pagina .grupo-1 .box figure img:hover{
+    transform: scale(1.05)
+}
+
 .pie-pagina .grupo-1 .box h2{
     color: #fff;
     margin-bottom: 35px;
     font-size: 25px;
-    font-family: 'Bebas Neue', sans-serif;
-    font-family: 'Lilita One';
-    font-family: 'Oswald', sans-serif;
-    font-family: 'Quicksand', sans-serif;
-    font-family: 'VT323', monospace;
+    font-family: 'Lilita One', cursive;
 }
 .pie-pagina .grupo-1 .box p{
     color: #efefef;
     margin-bottom: 40px;
-    font-family: 'Bebas Neue', sans-serif;
-    font-family: 'Lilita One';
-    font-family: 'Oswald', sans-serif;
-    font-family: 'Quicksand', sans-serif;
-    font-family: 'VT323', monospace;
+    font-family: 'Lilita One', cursive;
 }
 .pie-pagina .grupo-1 .red-social a{
     text-decoration: none;
@@ -246,10 +271,20 @@ nav ul{
 }
 .pie-pagina .grupo-1 .red-social a:hover{
     color: crimson;
+    transform: scale(1.05);
+
 }
 .pie-pagina .grupo-2{
     text-align: center;
     color: #fff;
     background-color: #0a1a2a;
     padding: 16px 10px;
+}
+
+.articulo .mueble:hover{
+    transform: scale(1.05)
+}
+
+.articulo .listas:hover{
+    transform: scale(1.05)
 }
